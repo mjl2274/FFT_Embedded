@@ -1,0 +1,10 @@
+For FFT Code:
+1) Need to process whole audio:
+2) Maybe spit out notes every 5 seconds?
+3) Need to FFT whole audio in chunks, process each chunk and form the frequency spectrum as we go 
+4) Need to match notes in time sequentially:
+
+Flow
+
+Process --> Filter --> until sample time = 2-5 seconds, pick out top 3 notes
+--> Process --> Filter --> repeat 
